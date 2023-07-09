@@ -1,0 +1,32 @@
+.intro{
+    margin: 20px;
+}
+
+.ab{
+    margin: 15px 0;
+}
+.skillcontainer{
+    padding: 12px;
+}
+
+.skill{
+    height: 6px;
+    border-radius: 5px;
+}
+
+.t2{
+    width: 80px;
+    background-color: red;
+}
+.t3{
+    width: 150px;
+    background-color: blue;
+}
+.t4{
+    width: 250px;
+    background-color: yellow;
+}
+.t5{
+    width: 350px;
+    background-color: green;
+}

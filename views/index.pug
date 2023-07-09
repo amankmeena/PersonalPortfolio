@@ -1,0 +1,40 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Aman - Developer Portfolio
+    style 
+        //- including style.css
+        include ../static/style.css
+  body 
+    nav#navbar.top.first
+      ul
+        li #[a(href="/") Home]
+        li #[a(href="/myintro") My Intro]
+        li #[a(href="/service") Services]
+        li #[a(href="/blog") Blog]
+        li #[a(href="/contact") Contact Me]
+    
+    section#introSection 
+      div Welcome to Aman's Dance Academy.
+      div.small Eat Sleep Dance Repeat!!!
+
+    section#missionSection 
+      h2 Our Mission
+      dv.card 
+        h3 Dance Perfection
+      dv.card 
+        h3 Dance the way you like
+      dv.card 
+        h3 Expert Teaching
+
+    section#sponsorsSection 
+      h2 Our Sponsors
+      div#sponsors
+        img(src="/static/img1.jpg", alt="Sponsors Image", class="spimg")
+        img(src="/static/img1.jpg", alt="Sponsors Image", class="spimg")
+        img(src="/static/img1.jpg", alt="Sponsors Image", class="spimg")
+        img(src="/static/img1.jpg", alt="Sponsors Image", class="spimg")
+    script 
+      include ../static/static.js

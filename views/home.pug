@@ -1,0 +1,57 @@
+extends base.pug
+
+block scripts 
+    //- script(src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js")
+    //- script.
+    //-     console.log("1")
+    //-     var typed = new Typed('#element', {
+    //-     strings: ['First sentence.', '&amp; a second sentence.'],
+    //-     typeSpeed: 50,
+    //-     });
+    //-     console.log("2")
+    script(src="/static/static.js") 
+
+block style 
+    style 
+        include ../static/style.css
+
+block content     
+    section.firstsection
+        div.leftsection Hi, My name is 
+            span.purple Aman
+            div and I am a passionate
+            div web developer
+            //- span#element
+
+        div.rightsection 
+            img(src="/static/img.png", alt="BG")
+    
+    hr
+    section.secondsection
+        span.text-gray What i have done so far
+        h1 Work Experince
+        div.box
+            div.vertical
+                img(src="/static/img.png", alt="Error", class="img-top")
+                div.vert-tl HTML Developer (2010-2012)
+                div.vert-ds Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quos ut dolor ducimus, mollitia, nisi praesentium, omnis officiis fuga quo vitae necessitatibus animi?
+            div.vertical
+                img(src="/static/img.png", alt="Error", class="img-top")
+                div.vert-tl HTML Developer (2010-2012)
+                div.vert-ds Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quos ut dolor ducimus, mollitia, nisi praesentium, omnis officiis fuga quo vitae necessitatibus animi?
+            div.vertical
+                img(src="/static/img.png", alt="Error", class="img-top")
+                div.vert-tl HTML Developer (2010-2012)
+                div.vert-ds Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quos ut dolor ducimus, mollitia, nisi praesentium, omnis officiis fuga quo vitae necessitatibus animi?
+            div.vertical
+                img(src="/static/img.png", alt="Error", class="img-top")
+                div.vert-tl HTML Developer (2010-2012)
+                div.vert-ds Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quos ut dolor ducimus, mollitia, nisi praesentium, omnis officiis fuga quo vitae necessitatibus animi?
+            div.vertical
+                img(src="/static/img.png", alt="Error", class="img-top")
+                div.vert-tl HTML Developer (2010-2012)
+                div.vert-ds Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quos ut dolor ducimus, mollitia, nisi praesentium, omnis officiis fuga quo vitae necessitatibus animi?
+            div.vertical
+                img(src="/static/img.png", alt="Error", class="img-top")
+                div.vert-tl HTML Developer (2010-2012)
+                div.vert-ds Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quos ut dolor ducimus, mollitia, nisi praesentium, omnis officiis fuga quo vitae necessitatibus animi?

@@ -1,0 +1,35 @@
+extends base.pug
+
+block scripts 
+    script(src="/static/static.js") 
+
+block style 
+    style 
+        include ../static/style.css
+        include ../static/styleabout.css
+
+block content 
+        div.intro 
+            div.ab
+                h1 About Me 
+                p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore unde alias dignissimos, voluptatibus recusandae ratione dolores reprehenderit iure nam nesciunt temporibus labore vero quas quaerat sit laudantium atque, odit eaque id nisi rerum non! Provident ab ipsa obcaecati sapiente aut?
+
+            div.ab
+                h2 Skills
+                div.skillcontainer
+                    div.skillitem HTML: 
+                        div.skill.t3
+                    div.skillitem CSS: 
+                        div.skill.t5
+                    div.skillitem JavaScript: 
+                        div.skill.t4
+                    div.skillitem C: 
+                        div.skill.t2
+                    div.skillitem C++: 
+                        div.skill.t3
+                    div.skillitem Pug: 
+                        div.skill.t2
+
+            div.ab
+                h2 Projects
+                div Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, vero quo. Corporis, sed? Sint, fugiat. Sed nam, nostrum labore voluptates cumque a tempore laudantium, ducimus suscipit illo quaerat dolorum maxime provident, cum beatae deserunt necessitatibus possimus adipisci ex minus. Quod repudiandae voluptate voluptatem sequi voluptas! Cupiditate sunt architecto magnam necessitatibus?
